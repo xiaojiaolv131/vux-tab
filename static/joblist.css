@@ -1,0 +1,82 @@
+@charset "utf-8";
+.mod-filter {
+	background: #fff;
+}
+.filter-nav li {
+	height: 43px;
+	line-height: 43px;	
+}
+.filter-nav li:last-child::after {
+	display: none;
+}
+.filter-nav a {
+	color: #737373;
+	display: block;
+	height: 100%;
+}
+.filter-nav a::after {
+	content: "";
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	border-width: 0 0 1px 1px;
+	border-style: solid;
+	border-color: #d9d9d9;
+	margin-left: 10px;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	/* -webkit-transition: transform 0.3s ease;
+	transition: transform 0.3s ease; */
+	position: relative;
+	top: -3px;
+}
+.filter-nav a.active::after {
+	border-color: #f00;
+	-webkit-transform: rotate(135deg);
+	transform: rotate(135deg);
+	top: 2px;
+}
+.job-list {
+	background: #fff;
+}
+.job-list li a {
+	display: block;
+	padding: 21px 13px 25px;
+	overflow: hidden;
+}
+.job-list .pic {
+	float: left;
+	width: 65px;
+	height: 65px;
+	border-radius: 2px;
+	margin-right: 14px;
+}
+.job-list h3 {
+	font-size: 16px;
+	margin-bottom: 8px;
+	font-weight: normal;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.job-list h3 + div {
+	color: #888;
+	margin-bottom: 8px;
+}
+.job-list h3 + div span {
+	margin-right: 14px;
+}
+.job-list .money {
+	color: #ff3817;
+	margin-right: 12px;
+}
+.job-list .money em {
+	font-size: 19px;
+}
+.job-list .source {
+	position: absolute;
+	right: 13px;
+	bottom: 28px;
+	color: #888;
+	font-size: 12px;
+}
