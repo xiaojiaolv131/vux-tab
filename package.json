@@ -1,7 +1,7 @@
 {
   "name": "vux-tab",
   "version": "1.0.0",
-  "description": "基于vux实现可滑动的商第��电商商品列表tab",
+  "description": "基于vux实现可滑动的电商商品列表tab",
   "author": "Hulk Lv",
   "private": true,
   "scripts": {
